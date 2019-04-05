@@ -11,9 +11,9 @@ class Ship
 {
 private:
 public:
-	string name;
-	string year;
-	Ship(string n, string y);
+	string name; // in the midst of todays lecture i realized that i could have
+	string year; // accomplished the same thing with getter and setter function
+	Ship(string n, string y); // if name and year were private data
 	virtual void print();
 };
 
